@@ -1,3 +1,8 @@
+This was a typo in the Maven configuration; writing `JSpecifyMode:true` (incorrect) instead of `JSpecifyMode=true` (correct).
+When corrected, Maven behaves as Gradle.
+
+---
+
 Repro of <https://github.com/uber/NullAway/issues/1437> for convenience.
 
 There appears to be a difference in the `JSpecifyMode` option's behaviour between Maven and Gradle.
